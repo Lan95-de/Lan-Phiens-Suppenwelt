@@ -1,0 +1,26 @@
+h1 {
+  color: blueviolet;
+}
+
+/* .pho {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #000000;
+} */
+
+.pho {
+  display: flex;
+  flex-direction: row; /* nebeneinander */
+  border: 3px solid #000000; /* schwarzer Rahmen */
+  justify-content: center;
+  gap: 0px;
+  padding: 20px; /* Abstand vom Rahmen zu den Bildern */
+  width: fit-content; /* Breite passt sich automatisch an den Inhalt an */
+  margin: 0 auto; /* Mitte auf der Seite */
+}
+
+.pho img {
+  width: 300px;
+  height: auto;
+}

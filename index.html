@@ -4,19 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Lan Phiens Suppenwelt aaaaaaa| IA</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="pics/globe-solid.png">
-    <script src="scripts.js" defer>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer>
     </script>
+    <script src="https://kit.fontawesome.com/581bff5461.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header id="site-header">
         <h1>Hundesuppe</h1>
-        <nav>
+        <!-- <nav>
             <a href="index.html">Startseite</a>
             <a href="html_uebung.html">Menü</a>
             <a href="css_uebung.html">CSS-Übung</a>
@@ -24,6 +21,17 @@
             <a href="box_types.html">Box-Typen</a>
             <a href="flexbox.html">Flexboxen</a>
             <a href="javascript.html">JavaScript</a>
+        </nav> -->
+        <nav class="topnav" id="myTopnav">
+            <!--https://www.w3schools.com/howto/howto_css_fixed_menu.asp, https://www.w3schools.com/howto/howto_css_topnav_centered.asp I used this to build the Fixed Menu-->
+            <a href="tim/Über uns/index.html">Über uns</a>
+            <a href="Hayat/index.html">Zimmer</a>
+            <a href="index.html"><img src="11.png" alt="Hotel logo" class="hotellogo"></a>
+            <a href="restaurant.html">Restaurant</a>
+            <a href="Tim/index.html">Sehenswürdigkeiten</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
 
@@ -36,6 +44,7 @@
                 <div class="like-and-subscribe">
                     <button><i class="fa-solid fa-thumbs-up"></i></button>
                     <button><i class="fa-solid fa-star"></i></button>
+                    <button><i class="fab fa-facebook"></i></button>
                 </div>
             </header>
             <h2><i class="fa-brands fa-html5"></i> HTML</h2>
@@ -104,6 +113,11 @@
                 Mit JS erwecken wir unsere Webseite zum Leben! Aber dazu später mehr. 😉
             </p>
         </article>
+        <div class="pho">
+            <img src="13-hanoi-nudelsuppe.jpg">
+            <img src="13-hanoi-nudelsuppe.jpg">
+            <img src="13-hanoi-nudelsuppe.jpg">
+        </div>
     </main>
 
     <footer id="impressum">
