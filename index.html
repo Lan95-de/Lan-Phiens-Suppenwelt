@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lan Phiens Suppenwelt aaaaaaa| IA</title>
+    <title>Lan Phiens Suppenwelt</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer>
     </script>
@@ -12,112 +12,107 @@
 
 <body>
     <header id="site-header">
-        <h1>Hundesuppe</h1>
-        <!-- <nav>
+        <h1>Lan Phiens Suppenwelt</h1>
+        <nav>
             <a href="index.html">Startseite</a>
-            <a href="html_uebung.html">Menü</a>
-            <a href="css_uebung.html">CSS-Übung</a>
-            <a href="context_selectors.html">Kontext-Selektoren</a>
-            <a href="box_types.html">Box-Typen</a>
-            <a href="flexbox.html">Flexboxen</a>
+            <a href="nudelblog.html">Nudelblog</a>
+            <a href="über_uns.html">Über uns</a>
             <a href="javascript.html">JavaScript</a>
-        </nav> -->
-        <nav class="topnav" id="myTopnav">
-            <!--https://www.w3schools.com/howto/howto_css_fixed_menu.asp, https://www.w3schools.com/howto/howto_css_topnav_centered.asp I used this to build the Fixed Menu-->
-            <a href="tim/Über uns/index.html">Über uns</a>
-            <a href="Hayat/index.html">Zimmer</a>
-            <a href="index.html"><img src="11.png" alt="Hotel logo" class="hotellogo"></a>
-            <a href="restaurant.html">Restaurant</a>
-            <a href="Tim/index.html">Sehenswürdigkeiten</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            <a href="menü.html">Menü</a>
         </nav>
     </header>
 
+    <!-- Beschreibung -->
+
     <main>
-        <p>Willkommen zum Kurs <em>Internetanwendungen</em>! Diese Webseite dient der Praxisübung.</p>
-        <article>
-            <header>
-                <div class="post-date">17.04.2025</div>
-                <div class="post-author">Dennis Forster</div>
-                <div class="like-and-subscribe">
-                    <button><i class="fa-solid fa-thumbs-up"></i></button>
-                    <button><i class="fa-solid fa-star"></i></button>
-                    <button><i class="fab fa-facebook"></i></button>
-                </div>
-            </header>
-            <h2><i class="fa-brands fa-html5"></i> HTML</h2>
-            <p>HTML steht für <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
-                <strong>L</strong>anguage und ist zuständig für die Strukturierung (das "Skelett" 🦴) der Webseite. Jede
-                HTML Datei beginnt mit <code>&lt;!DOCTYPE html&gt;</code> und hat sämtlichen Code zwischen den <a
-                    href="tags_elemente.html">Tags</a> <code>&lt;html&gt;</code> (opening tag) und
-                <code>&lt;/html&gt;</code> (closing tag).
-            </p>
+        <!-- Slideshow -->
+        <div class="mySlides fade">
+            <p>Willkommen auf unserer Webseite <em>Internetanwendungen</em>! Diese Webseite dient der Praxisübung.</p>
+            <article>
+                <header>
+                    <div class="post-date">17.04.2025</div>
+                    <div class="post-author">Dennis Forster</div>
+                    <div class="like-and-subscribe">
+                        <button><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button><i class="fa-solid fa-star"></i></button>
+                        <button><i class="fab fa-facebook"></i></button>
+                    </div>
+                </header>
+                <h2><i class="fa-brands fa-html5"></i> HTML</h2>
+                <p>HTML steht für <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
+                    <strong>L</strong>anguage und ist zuständig für die Strukturierung (das "Skelett" 🦴) der Webseite.
+                    Jede
+                    HTML Datei beginnt mit <code>&lt;!DOCTYPE html&gt;</code> und hat sämtlichen Code zwischen den <a
+                        href="tags_elemente.html">Tags</a> <code>&lt;html&gt;</code> (opening tag) und
+                    <code>&lt;/html&gt;</code> (closing tag).
+                </p>
 
-            <p>
-                Das HTML Dokument unterteilt sich zunächst in zwei Hauptabschnitte:
-            </p>
-            <ul>
-                <li><code>head</code></li>
-                <li><code>body</code></li>
-            </ul>
+                <p>
+                    Das HTML Dokument unterteilt sich zunächst in zwei Hauptabschnitte:
+                </p>
+                <ul>
+                    <li><code>head</code></li>
+                    <li><code>body</code></li>
+                </ul>
 
 
-            <h3>head</h3>
-            <p>Das head-Element enthält hauptsächlich Meta-Informationen, wie die verwendete Zeichenkodierung (idR
-                als erstes Element), und die Einbindung von externen CSS- und JS-Dateien.
-            </p>
+                <h3>head</h3>
+                <p>Das head-Element enthält hauptsächlich Meta-Informationen, wie die verwendete Zeichenkodierung (idR
+                    als erstes Element), und die Einbindung von externen CSS- und JS-Dateien.
+                </p>
 
-            <h3>body</h3>
-            <p>Das body-Element enthält den (sichtbaren) Inhalt des HTML-Dokuments. Dieser wird durch
-                <em>semantisches</em> HTML strukturell und insbes. <em>bedeutungsvoll</em> gegliedert. Einige Elemente
-                haben bereits vordefinierte Designs, wie z.B. Überschriften (h1, h2, ...), Paragraphen (p), Listen (ul,
-                ol, etc.). Andere haben zunächst keine optischen Effekt (z.B. nav, header, footer, article, uvm.). Für
-                die optische Darstellung ist dann CSS zuständig.
-            </p>
-        </article>
+                <h3>body</h3>
+                <p>Das body-Element enthält den (sichtbaren) Inhalt des HTML-Dokuments. Dieser wird durch
+                    <em>semantisches</em> HTML strukturell und insbes. <em>bedeutungsvoll</em> gegliedert. Einige
+                    Elemente
+                    haben bereits vordefinierte Designs, wie z.B. Überschriften (h1, h2, ...), Paragraphen (p), Listen
+                    (ul,
+                    ol, etc.). Andere haben zunächst keine optischen Effekt (z.B. nav, header, footer, article, uvm.).
+                    Für
+                    die optische Darstellung ist dann CSS zuständig.
+                </p>
+            </article>
 
-        <article>
-            <header>
-                <div class="post-date">24.04.2025</div>
-                <div class="post-author">Dennis Forster</div>
-                <div class="like-and-subscribe">
-                    <button><i class="fa-solid fa-thumbs-up"></i></button>
-                    <button><i class="fa-solid fa-star"></i></button>
-                </div>
-            </header>
-            <h2><i class="fa-brands fa-css3-alt"></i> CSS</h2>
-            <p>Wenn HTML das innere Skelett darstellt, ist CSS das äußere Erscheinungsbild. Der gleiche HTML Code
-                kann durch CSS auf die verschiedensten Arten optisch dargestellt werden. Wir schauen uns dafür
-                insbesondere drei Bereiche an:
-            </p>
-            <ol>
-                <li>Textformatierung</li>
-                <li>Abstände (das CSS Box-Modell)</li>
-                <li>Responsive Design (Flexboxen)</li>
-            </ol>
-        </article>
+            <article>
+                <header>
+                    <div class="post-date">24.04.2025</div>
+                    <div class="post-author">Dennis Forster</div>
+                    <div class="like-and-subscribe">
+                        <button><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button><i class="fa-solid fa-star"></i></button>
+                    </div>
+                </header>
+                <h2><i class="fa-brands fa-css3-alt"></i> CSS</h2>
+                <p>Wenn HTML das innere Skelett darstellt, ist CSS das äußere Erscheinungsbild. Der gleiche HTML Code
+                    kann durch CSS auf die verschiedensten Arten optisch dargestellt werden. Wir schauen uns dafür
+                    insbesondere drei Bereiche an:
+                </p>
+                <ol>
+                    <li>Textformatierung</li>
+                    <li>Abstände (das CSS Box-Modell)</li>
+                    <li>Responsive Design (Flexboxen)</li>
+                </ol>
+            </article>
 
-        <article>
-            <header>
-                <div class="post-date">05.06.2025</div>
-                <div class="post-author">Dennis Forster</div>
-                <div class="like-and-subscribe">
-                    <button><i class="fa-solid fa-thumbs-up"></i></button>
-                    <button><i class="fa-solid fa-star"></i></button>
-                </div>
-            </header>
-            <h2><i class="fa-brands fa-js"></i> JavaScript</h2>
-            <p>
-                Mit JS erwecken wir unsere Webseite zum Leben! Aber dazu später mehr. 😉
-            </p>
-        </article>
-        <div class="pho">
-            <img src="13-hanoi-nudelsuppe.jpg">
-            <img src="13-hanoi-nudelsuppe.jpg">
-            <img src="13-hanoi-nudelsuppe.jpg">
-        </div>
+            <article>
+                <header>
+                    <div class="post-date">05.06.2025</div>
+                    <div class="post-author">Dennis Forster</div>
+                    <div class="like-and-subscribe">
+                        <button><i class="fa-solid fa-thumbs-up"></i></button>
+                        <button><i class="fa-solid fa-star"></i></button>
+                    </div>
+                </header>
+                <h2><i class="fa-brands fa-js"></i> JavaScript</h2>
+                <p>
+                    Mit JS erwecken wir unsere Webseite zum Leben! Aber dazu später mehr. 😉
+                </p>
+            </article>
+            <div class="pho">
+                <img src="13-hanoi-nudelsuppe.jpg">
+                <img src="13-hanoi-nudelsuppe.jpg">
+                <img src="13-hanoi-nudelsuppe.jpg">
+            </div>
     </main>
 
     <footer id="impressum">
