@@ -2,15 +2,17 @@
   position: sticky;
   top: 0;
   width: 100%;
-  color: #333;
+  color: #ff0000;
+  z-index: 10;
+  font-size: x-large;
 }
 
 h1 {
-  color: blueviolet;
+  color: black;
 }
 
 nav {
-  background-color: #333;
+  background-color: #e49b0f;
   padding: 10px;
   flex-flow: column;
 }
@@ -25,15 +27,15 @@ nav ul {
 nav ul li {
   margin-right: 20px;
 }
-
+a {
+  color: rgb(172, 0, 34);
+  text-decoration: none;
+}
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
+  font-weight: normal;
+  font-size: 72px;
 }
 
 /* .pho {
@@ -46,15 +48,56 @@ nav ul li a:hover {
 .pho {
   display: flex;
   flex-direction: row; /* nebeneinander */
-  border: 3px solid #000000; /* schwarzer Rahmen */
+  /* border: 30px solid #5c61b9; schwarzer Rahmen */
   justify-content: center;
   gap: 0px;
   padding: 20px; /* Abstand vom Rahmen zu den Bildern */
-  width: fit-content; /* Breite passt sich automatisch an den Inhalt an */
+  width: 70px;
+  height: auto; /* Breite passt sich automatisch an den Inhalt an */
   margin: 0 auto; /* Mitte auf der Seite */
 }
 
 .pho img {
-  width: 300px;
+  width: 3000px;
   height: auto;
+}
+
+.Küchenjunge img {
+  height: 200px;
+  width: auto;
+}
+
+body {
+  background-color: #fdda0d;
+}
+
+.lannap {
+  overflow: hidden;
+  background-color: #e49b0f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  gap: 50px;
+  align-items: center;
+  position: fixed;
+  padding-left: 0px;
+  max-height: 500px;
+  z-index: 99;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  font-family: "Merriweather";
+  top: 0;
+  width: 100%;
+  height: 150px;
+}
+#scroll-top i {
+  font-size: 50px;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+#scroll-top i:hover {
+  transform: scale(1.2); /* Beim Hover noch größer */
 }
